@@ -1,0 +1,73 @@
+.amenities-section {
+    font-family: 'Poppins', sans-serif;
+    justify-items: center;
+}
+
+.subtitle {
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Forum;
+    font-size: 64px;
+    width: 520px;
+    margin-right: 50vw;
+    
+    
+}
+
+.description {
+    font-family: Poppins;
+    text-align: right;
+    width: 360px;
+    margin-left: 43vw;
+    color: #575656;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    background-color: #D5D5D5;
+    width: 670px;    
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    height: 180px;
+    max-width: 88.5%;
+    text-align: center;
+}
+
+.grid-row:nth-child(even) .card {
+    justify-self: end;
+    
+}
+.card h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    font-family: forum;
+}
+
+.card p {
+    font-size: 0.8rem;
+    color: #ccc;
+}
+
+.discover-btn {
+padding: 10px 20px;
+border-style: outset none outset none;
+border-color: #b7a6a6;
+background-color: transparent;
+color: #b7a6a6;
+margin-top: 3vw;
+}

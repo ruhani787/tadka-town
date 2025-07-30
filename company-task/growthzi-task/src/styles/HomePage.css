@@ -1,0 +1,103 @@
+.hero-section{
+    background-color: #575656;
+    height: 45vw;
+    padding: 1vw;
+}
+.navbar{
+    display: flex;
+    padding: 0.50vw;
+}
+.nav-links{
+    margin-left: 35vw;
+}
+.nav-links a{
+    color: #fff;
+    margin-left: 6vw;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+}
+.hero-content{
+justify-items: center;
+text-align: center;
+margin-top: 4vw;
+}
+.hero-content p{
+color: #BF9766;
+letter-spacing: 0.3vw;
+}
+.hero-content h2{
+color: #fff;
+font-family: Forum;
+font-weight: 400;
+font-size: 6vw;
+width: 60vw;
+}
+#discover-btn{
+padding: 10px 20px;
+border-style: outset none outset none;
+border-color: #fff;
+background-color: #575656;
+color: #fff;
+margin-bottom: 3vw;
+}
+.slider-arrows{
+position: absolute;
+top: 70%;
+padding: 0 10px;
+}
+.arrow-left{
+font-size: 30px;
+cursor: pointer;
+width: 3.4vw;
+background-color: #575656;
+border: 1px solid white;
+color: white;
+border-radius: 9vw;
+}
+.arrow-right{
+font-size: 30px;
+cursor: pointer;
+width: 3.4vw;
+border: 1px solid white;
+color: white;
+background-color: #575656;
+border-radius: 9vw;
+margin-left: 90vw;
+}
+.booking-bar{
+display: flex;
+gap: 2vw;
+width: 50vw;
+background-color:#2D2C2C;
+position: absolute;
+height: 6vw;
+padding: 1vw;
+margin: 0 26vw;
+}
+.booking-item{
+    padding: 1vw;
+}
+label{
+color: #fff;
+font-family:forum;
+}
+input[type="date"],
+.booking-bar select{
+padding: 5px;
+background-color: #575656;
+color: #BF9766;
+margin-top: 0.60vw;
+width: 7vw;
+}
+#check-btn{
+color: #BF9766;
+background-color:transparent;
+border: none;
+width: 14vw;
+}
+#check-btn:hover{
+    text-decoration: underline;
+    font-size: 14px;
+}
